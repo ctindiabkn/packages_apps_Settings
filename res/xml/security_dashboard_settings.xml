@@ -96,11 +96,11 @@
         android:key="security_settings_misc_category"
         android:title="@string/security_passwords_title">
 
-        <Preference
+<!--        <Preference
             android:key="location"
             android:title="@string/location_settings_title"
             android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.location.LocationSettings" />
+            android:fragment="com.android.settings.location.LocationSettings" /> -->
 
         <SwitchPreference
             android:key="show_password"
@@ -110,7 +110,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
+<!--    <PreferenceCategory
         android:order="40"
         android:key="security_settings_device_admin_category">
 
@@ -126,7 +126,7 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings" />
 
-    </PreferenceCategory>
+    </PreferenceCategory> -->
 
     <Preference
         android:order="50"
@@ -140,7 +140,7 @@
 
     </Preference>
 
-    <Preference
+<!--    <Preference
         android:order="60"
         android:key="encryption_and_credential"
         android:title="@string/encryption_and_credential_settings_title"
@@ -159,6 +159,6 @@
         android:key="screen_pinning_settings"
         android:title="@string/screen_pinning_title"
         android:summary="@string/summary_placeholder"
-        android:fragment="com.android.settings.security.ScreenPinningSettings" />
+        android:fragment="com.android.settings.security.ScreenPinningSettings" /> -->
 
 </PreferenceScreen>

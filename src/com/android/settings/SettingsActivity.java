@@ -292,7 +292,7 @@ public class SettingsActivity extends SettingsDrawerActivity
         }
 
         final boolean deviceProvisioned = Utils.isDeviceProvisioned(this);
-        if (mIsShowingDashboard) {
+/*        if (mIsShowingDashboard) {
             findViewById(R.id.search_bar).setVisibility(
                     deviceProvisioned ? View.VISIBLE : View.INVISIBLE);
             findViewById(R.id.action_bar).setVisibility(View.GONE);
@@ -309,7 +309,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             navView.setClickable(false);
             navView.setImportantForAccessibility(IMPORTANT_FOR_ACCESSIBILITY_NO);
             navView.setBackground(null);
-        }
+        } */
 
         ActionBar actionBar = getActionBar();
         if (actionBar != null) {

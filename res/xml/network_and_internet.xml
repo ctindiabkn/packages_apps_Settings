@@ -48,7 +48,7 @@
             android:targetClass="com.android.phone.MobileNetworkSettings" />
     </com.android.settingslib.RestrictedPreference>
 
-    <com.android.settingslib.RestrictedPreference
+<!--    <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.TetherSettings"
         android:key="tether_settings"
         android:title="@string/tether_settings_title_all"
@@ -57,7 +57,7 @@
         android:summary="@string/summary_placeholder"
         settings:keywords="@string/keywords_hotspot_tethering"
         settings:userRestriction="no_config_tethering"
-        settings:useAdminDisabledSummary="true" />
+        settings:useAdminDisabledSummary="true" /> -->
 
     <com.android.settingslib.RestrictedPreference
         android:key="manage_mobile_plan"

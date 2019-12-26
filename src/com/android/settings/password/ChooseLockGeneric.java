@@ -97,7 +97,7 @@ public class ChooseLockGeneric extends SettingsActivity {
     public static class ChooseLockGenericFragment extends SettingsPreferenceFragment {
 
         private static final String TAG = "ChooseLockGenericFragment";
-        private static final int MIN_PASSWORD_LENGTH = 4;
+        private static final int MIN_PASSWORD_LENGTH = 6;
         private static final String KEY_SKIP_FINGERPRINT = "unlock_skip_fingerprint";
         private static final String PASSWORD_CONFIRMED = "password_confirmed";
         private static final String WAITING_FOR_CONFIRMATION = "waiting_for_confirmation";
@@ -446,8 +446,8 @@ public class ChooseLockGeneric extends SettingsActivity {
             addPreferencesFromResource(R.xml.security_settings_picker);
 
             // Used for testing purposes
-            findPreference(ScreenLockType.NONE.preferenceKey).setViewId(R.id.lock_none);
-            findPreference(KEY_SKIP_FINGERPRINT).setViewId(R.id.lock_none);
+//            findPreference(ScreenLockType.NONE.preferenceKey).setViewId(R.id.lock_none);
+//            findPreference(KEY_SKIP_FINGERPRINT).setViewId(R.id.lock_none);
             findPreference(ScreenLockType.PIN.preferenceKey).setViewId(R.id.lock_pin);
             findPreference(ScreenLockType.PASSWORD.preferenceKey).setViewId(R.id.lock_password);
         }

@@ -29,26 +29,6 @@
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
-    <!-- Button Settings -->
-    <Preference
-        android:key="button_settings"
-        android:title="@string/button_pref_title"
-        android:icon="@drawable/ic_button_settings"
-        android:order="-256"
-        android:fragment="com.android.settings.custom.buttons.ButtonSettings"
-        settings:controller="com.android.settings.custom.buttons.ButtonSettingsPreferenceController"/>
-
-    <!-- Backup -->
-    <Preference
-        android:key="backup_settings"
-        android:title="@string/privacy_settings_title"
-        android:summary="@string/summary_placeholder"
-        android:icon="@drawable/ic_settings_backup"
-        android:order="-60"
-        settings:controller="com.android.settings.backup.BackupSettingsActivityPreferenceController">
-        <intent android:action="android.settings.BACKUP_AND_RESET_SETTINGS" />
-    </Preference>
-
     <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
@@ -57,15 +37,6 @@
         android:order="-50"
         android:fragment="com.android.settings.system.ResetDashboardFragment"
         settings:controller="com.android.settings.system.ResetPreferenceController"/>
-
-    <!-- User settings -->
-    <Preference
-        android:key="user_settings"
-        android:title="@string/user_settings_title"
-        android:icon="@drawable/ic_settings_multiuser"
-        android:order="-45"
-        android:fragment="com.android.settings.users.UserSettings"
-        settings:controller="com.android.settings.users.UserSettingsPreferenceController"/>
 
     <!-- System updates -->
     <Preference
